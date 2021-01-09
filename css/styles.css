@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -52,6 +62,9 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+
+  padding: 0px;
+  margin: 0px;
 }
 .address:hover,
 .address:focus {
@@ -59,6 +72,9 @@ ul {
 }
 .heading {
   background-color: #2f303a;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
 }
 .heading-title {
   color: var(--link-color);
@@ -66,7 +82,10 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
+
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 30px;
 }
 .sction-title {
   color: var(--primary-text-color);
@@ -144,6 +163,7 @@ ul {
 
   border-radius: 4px;
   padding: 6px 22px;
+  min-width: 73px;
 }
 .button:hover {
   color: var(--link-color);
@@ -157,9 +177,12 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   text-decoration: none;
+  text-align: center;
 
   border-radius: 4px;
   padding: 10px 32px;
+  display: inline-block;
+  max-width: 200px;
 }
 /*карточки*/
 .card {
