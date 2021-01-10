@@ -7,6 +7,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0ex;
+}
 
 :root {
   --primary-text-color: #212121;
@@ -38,6 +45,9 @@ ul {
 }
 .accent {
   color: var(--primary-text-color);
+}
+.section {
+  padding: 94px;
 }
 .site-nav {
   color: var(--primary-text-color);
@@ -75,6 +85,11 @@ ul {
   padding: 0px;
   margin: 0px;
   text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 280px;
+  height: 600px;
+  margin-bottom: 0px;
 }
 .heading-title {
   color: var(--link-color);
@@ -83,15 +98,16 @@ ul {
   font-size: 44px;
   line-height: 1.4;
 
-  padding: 0px;
   margin: 0px;
   margin-bottom: 30px;
 }
-.sction-title {
+.section-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+
+  margin-bottom: 10px;
 }
 /*описание*/
 .section-text {
