@@ -196,6 +196,7 @@ ul {
 }
 /*кнопки*/
 .btn {
+  background-color: var(--color-backg);
   padding-top: 94px;
   padding-bottom: 0px;
 }
@@ -234,6 +235,7 @@ ul {
 }
 /*карточки*/
 .cr {
+  background-color: var(--color-backg);
   padding-top: 50px;
   padding-bottom: 94px;
 }
