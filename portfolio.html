@@ -8,11 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
   </head>
   <body>
     <!-- ШАПКА САЙТА-->
@@ -20,27 +17,33 @@
       <nav>
         <div class="container">
           <a href="#" class="logo">Web<span class="accent">Studio</span></a>
-          <ul>
-            <li>
-              <a href="./index.html" class="site-nav">Студия</a>
+          <ul class="site">
+            <li class="site-nav">
+              <a href="./index.html" class="site-link">Студия</a>
             </li>
-            <li>
-              <a href="./portfolio.html" class="site-nav current">Портфолио</a>
+            <li class="site-nav">
+              <a href="./portfolio.html" class="site-link current">Портфолио</a>
             </li>
-            <li>
-              <a href="#" class="site-nav">Контакты</a>
+            <li class="site-nav">
+              <a href="#" class="site-link">Контакты</a>
             </li>
           </ul>
         </div>
       </nav>
-      <address>
-        <div class="container">
-          <a href="mailto:info@devstudio.com" class="address"
-            >info@devstudio.com</a
-          >
-          <a href="tel:+380961111111" class="address">+38 096 111 11 11</a>
-        </div>
-      </address>
+      <div class="container">
+        <address>
+          <ul class="auth">
+            <li class="auth-nav">
+              <a href="mailto:info@devstudio.com" class="address"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="auth-nav">
+              <a href="tel:+380961111111" class="address">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <section class="btn">
       <div class="container">

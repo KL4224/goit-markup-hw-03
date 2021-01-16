@@ -38,9 +38,23 @@ ul {
   width: 1200px;
   outline: 2px solid red;
 }
+.site {
+  display: flex;
+}
+.site .site-nav {
+  margin-right: 50px;
+  outline: 2px solid green
+}
+.site .site-nav:last-child {
+  margin-right:0;
+}
 /*новигация*/
 .header {
   background-color: var(--link-color);
+  display: flex;
+}
+.container .mien {
+  display: flex;
 }
 .logo {
   color: var(--accent-color);
@@ -61,13 +75,24 @@ ul {
   line-height: 1.14;
   text-decoration: none;
 }
-.site-nav.current {
+.site-nav .current {
   color: var(--accent-color);
   text-decoration: none;
 }
-.site-nav:hover,
-.site-nav:focus {
+.site-link:hover,
+.site-link:focus {
   color: var(--accent-color);
+}
+.site-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.auth {
+  display: flex ;
+} 
+.auth-nav:not(:last-child) {
+  margin-right: 50px;
 }
 .address {
   color: var(--title-text-color);
