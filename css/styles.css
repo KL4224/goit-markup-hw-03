@@ -39,7 +39,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 .site {
   display: flex;
@@ -188,7 +188,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  background-color: lightsalmon;
 }
 .img {
   display: inline-block;
@@ -262,7 +261,6 @@ ul {
 }
 /*кнопки*/
 .btn {
-  background-color: var(--color-backg);
   padding-top: 94px;
   padding-bottom: 0px;
 }
@@ -301,7 +299,6 @@ ul {
 }
 /*карточки*/
 .cr {
-  background-color: var(--color-backg);
   padding-top: 50px;
   padding-bottom: 94px;
 }
